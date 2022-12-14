@@ -1,7 +1,4 @@
-/node_modules
-/build
 npm-debug.log
 .nyc
 .vscode
-.env*
 .DS_Store
