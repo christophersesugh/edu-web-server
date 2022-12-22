@@ -6,7 +6,7 @@ const app = express();
 
 const MONGO_URI: string | undefined = process.env.MONGO_URI || url;
 const PORT = process.env.PORT || 5000;
-mongoose.set("strictQuery", false);
+// mongoose.set("strictQuery", false);
 mongoose
   .connect(MONGO_URI)
   .then(() => {

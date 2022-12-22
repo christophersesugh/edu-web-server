@@ -1,5 +1,9 @@
-const preset = "ts-jest";
-const testEnvironment = "node";
-const setupFiles = ["dotenv/config"];
+import type { Config } from "jest";
 
-export { preset, testEnvironment, setupFiles };
+const config: Config = {
+  preset: "ts-jest",
+  testEnvironment: "node",
+  setupFiles: ["dotenv/config"]
+};
+
+export default config;
