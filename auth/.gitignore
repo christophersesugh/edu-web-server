@@ -1,6 +1,6 @@
 **/node_modules
 **/build
 .env*
-url
+url.ts
 npm-debug.log
 .nyc
